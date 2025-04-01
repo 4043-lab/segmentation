@@ -10,6 +10,7 @@ https://zenodo.org/records/5706578#.Yi2m1-hByUk
 ```
 https://github.com/open-mmlab/mmsegmentation
 ```
-将本文的代码加入到/mmseg/models/decode_heads/中，同时在configs文件夹中新建一个文件夹，用于防止定义实验参数，包括batch_size、图像增强方法等的config文件。
+将本文的代码加入到/mmseg/models/decode_heads/中，同时在configs文件夹创建相关运行配置。
 
 - 项目运行，见mmsegmentation项目介绍。
+- mmsegmentation 0.X版本可用，更新版本需要相应修改
